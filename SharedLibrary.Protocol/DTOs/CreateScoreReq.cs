@@ -1,4 +1,4 @@
-﻿namespace SharedClient.DTOs;
+﻿namespace SharedLibrary.Protocol.DTOs;
 
 public class CreateScoreReq
 {

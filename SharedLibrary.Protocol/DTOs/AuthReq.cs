@@ -1,6 +1,6 @@
-﻿using SharedClient.Common;
+﻿using SharedLibrary.Protocol.Common;
 
-namespace SharedClient.DTOs;
+namespace SharedLibrary.Protocol.DTOs;
 
 public class AuthReq
 {
@@ -8,5 +8,5 @@ public class AuthReq
     public string? Nickname { get; set; }
     public string? Email { get; set; }
     public string? Pw { get; set; }
-    public string Language { get; set; } = $"{AppConstant.ELanguage.En}";
+    public string Language { get; set; } = $"{AppEnum.ELanguage.En}";
 }
