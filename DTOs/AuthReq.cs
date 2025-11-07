@@ -1,6 +1,6 @@
-﻿using SharedLibrary.Common;
+﻿using SharedClient.Common;
 
-namespace SharedLibrary.DTOs;
+namespace SharedClient.DTOs;
 
 public class AuthReq
 {

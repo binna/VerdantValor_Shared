@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.DTOs;
+﻿namespace SharedClient.DTOs;
 
 public class GetRankReq
 {
