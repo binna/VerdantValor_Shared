@@ -121,6 +121,14 @@
       ]
     },
     {
+      "Code": 2030,
+      "IsSuccess": false,
+      "Message": [
+        "점수는 음수일 수 없습니다.",
+        "Score cannot be negative."
+      ]
+    },
+    {
       "Code": 9997,
       "IsSuccess": false,
       "Message": [
