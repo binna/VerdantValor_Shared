@@ -6,6 +6,8 @@
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
         <RootNamespace>SharedLibrary.Protocol</RootNamespace>
+        <Configurations>Debug;Release;Development;Live</Configurations>
+        <Platforms>AnyCPU</Platforms>
     </PropertyGroup>
     
     <ItemGroup>
