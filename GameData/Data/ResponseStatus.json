@@ -49,6 +49,14 @@
       ]
     },
     {
+      "Code": 2013,
+      "IsSuccess": false,
+      "Message": [
+        "Request 복호화에 실패했습니다.",
+        "Failed to decrypt request."
+      ]
+    },
+    {
       "Code": 2020, 
       "IsSuccess": false,
       "Message": [
