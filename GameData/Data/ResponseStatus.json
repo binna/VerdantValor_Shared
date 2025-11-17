@@ -19,21 +19,13 @@
     {
       "Code": 2000,
       "IsSuccess": false,
-      "Message": [ 
-        "현재 로그인 정보를 확인할 수 없습니다.\n다시 로그인해 주세요.",
-        "Your login information could not be verified.\nPlease log in again." 
-      ]
-    },
-    {
-      "Code": 2010,
-      "IsSuccess": false,
       "Message": [
         "필수 입력값이 비어 있습니다.",
         "A required field is missing or empty."
       ]
     },
     {
-      "Code": 2011,
+      "Code": 2001,
       "IsSuccess": false,
       "Message": [
         "입력값이 올바르지 않습니다.",
@@ -41,7 +33,7 @@
       ]
     },
     {
-      "Code": 2012,
+      "Code": 2002,
       "IsSuccess": false,
       "Message": [
         "요청한 데이터를 찾을 수 없습니다.",
@@ -49,7 +41,7 @@
       ]
     },
     {
-      "Code": 2013,
+      "Code": 2003,
       "IsSuccess": false,
       "Message": [
         "Request 복호화에 실패했습니다.",
@@ -57,7 +49,7 @@
       ]
     },
     {
-      "Code": 2020, 
+      "Code": 2010, 
       "IsSuccess": false,
       "Message": [
         "아이디는 영어와 숫자만 사용할 수 있습니다.",
@@ -65,7 +57,7 @@
       ]
     },
     {
-      "Code": 2021,
+      "Code": 2011,
       "IsSuccess": false,
       "Message": [
         "이미 사용 중인 아이디입니다.",
@@ -73,7 +65,7 @@
       ]
     },
     {
-      "Code": 2022,
+      "Code": 2012,
       "IsSuccess": false,
       "Message": [
         "이미 사용 중인 닉네임입니다.",
@@ -81,7 +73,7 @@
       ]
     },
     {
-      "Code": 2023,
+      "Code": 2013,
       "IsSuccess": false,
       "Message": [
         "아이디 길이 조건을 만족하지 않습니다.",
@@ -89,7 +81,7 @@
       ]
     },
     {
-      "Code" :2024,
+      "Code" :2014,
       "IsSuccess": false,
       "Message": [
         "닉네임 길이 조건을 만족하지 않습니다.",
@@ -97,7 +89,7 @@
       ]
     },
     {
-      "Code": 2025,
+      "Code": 2015,
       "IsSuccess": false,
       "Message": [
         "금지된 아이디입니다.",
@@ -105,7 +97,7 @@
       ]
     },
     {
-      "Code": 2026,
+      "Code": 2016,
       "IsSuccess": false,
       "Message": [
         "금지된 닉네임입니다.",
@@ -113,7 +105,7 @@
       ]
     },
     {
-      "Code": 2027,
+      "Code": 2017,
       "IsSuccess": false,
       "Message": [
         "비밀번호가 일치하지 않습니다.",
@@ -121,7 +113,7 @@
       ]
     },
     {
-      "Code": 2028,
+      "Code": 2018,
       "IsSuccess": false,
       "Message": [
         "닉네임은 영어와 숫자, 한글만 사용할 수 있습니다.",
@@ -129,7 +121,7 @@
       ]
     },
     {
-      "Code": 2030,
+      "Code": 2020,
       "IsSuccess": false,
       "Message": [
         "점수는 음수일 수 없습니다.",
