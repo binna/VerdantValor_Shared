@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.DTOs;
+﻿namespace SharedLibrary.Protocol.DTOs.Web;
 
 public class GetRankReq
 {

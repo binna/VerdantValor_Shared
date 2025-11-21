@@ -1,6 +1,6 @@
-﻿using SharedLibrary.Protocol.Common;
+﻿using SharedLibrary.Protocol.Common.Web;
 
-namespace SharedLibrary.Protocol.DTOs;
+namespace SharedLibrary.Protocol.DTOs.Web;
 
 public class AuthReq
 {

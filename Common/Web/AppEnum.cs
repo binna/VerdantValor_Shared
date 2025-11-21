@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.Common;
+﻿namespace SharedLibrary.Protocol.Common.Web;
 
 public static class AppEnum
 {
