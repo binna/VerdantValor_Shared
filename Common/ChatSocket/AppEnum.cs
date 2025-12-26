@@ -2,6 +2,8 @@
 
 public class AppEnum
 {
+    public const int LENGTH_FIELD_SIZE = 2;
+    
     public enum PacketType
     {
         Login = 0,
