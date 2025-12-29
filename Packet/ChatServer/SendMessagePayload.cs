@@ -4,10 +4,9 @@ namespace SharedLibrary.Protocol.Packet.ChatServer;
 
 public class SendMessagePayload : IPayload
 {
-    public short PayloadSize
-        => (short)Encoding.UTF8.GetByteCount(Message ?? string.Empty);
-    
-    public string Message { get; set; }
+    public short PayloadSize => (short)Encoding.UTF8.GetByteCount(Message);
+
+    public string Message { get; set; } = string.Empty;
 
     public void Parse(byte[] buffer)
     {

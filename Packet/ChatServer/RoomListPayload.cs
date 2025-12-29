@@ -7,7 +7,7 @@ public class RoomListPayload : IPayload
     public short PayloadSize => (short)(RoomCount * sizeof(int));
 
     public int RoomCount { get; set; }
-    public int[] RoomIds { get; set; }
+    public int[] RoomIds { get; set; } = Array.Empty<int>();
 
     public void Parse(byte[] buffer)
     {

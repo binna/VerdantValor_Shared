@@ -10,6 +10,7 @@ public static class AppEnum
         EnterRoom = 3,
         ExitRoom = 4,
         SendMessage = 5,
-        Disconnect = 6
+        RoomNotification = 6,
+        Disconnect = 7
     }
 }
