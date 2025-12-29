@@ -2,7 +2,7 @@
 
 public interface IPayload
 {
-    public short PayloadSize { get; }
-    public void Parse(byte[] buffer);
-    public byte[] From();
+    short PayloadSize { get; }
+    void Parse(byte[] buffer);
+    byte[] From();
 }

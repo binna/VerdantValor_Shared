@@ -1,6 +1,6 @@
 ﻿namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class CreateRoomPayload : IPayload
+public class CreateRoom : IPayload
 {
     public short PayloadSize { get; } = 0;
 

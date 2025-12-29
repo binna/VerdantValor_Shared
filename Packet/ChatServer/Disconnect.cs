@@ -1,6 +1,6 @@
 ﻿namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class DisconnectPayload : IPayload
+public class Disconnect : IPayload
 {
     public short PayloadSize { get; } = 0;
     

@@ -2,7 +2,7 @@
 
 namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class EnterRoomPayload : IPayload
+public class EnterRoom : IPayload
 {
     public short PayloadSize { get; } = sizeof(int);
     

@@ -2,7 +2,7 @@
 
 namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class RoomListPayload : IPayload
+public class RoomList : IPayload
 {
     public short PayloadSize => (short)(RoomCount * sizeof(int));
 
@@ -27,6 +27,9 @@ public class RoomListPayload : IPayload
 
     public byte[] From()
     {
+        if (RoomCount == 0)
+            return Array.Empty<byte>();
+        
         var buffer = new byte[RoomCount * sizeof(int)];
         var offset = 0;
         

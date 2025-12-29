@@ -6,11 +6,12 @@ public static class AppEnum
     {
         Login = 0,
         CreateRoom = 1,
-        RoomList = 2,
-        EnterRoom = 3,
-        ExitRoom = 4,
-        SendMessage = 5,
-        RoomNotification = 6,
-        Disconnect = 7
+        DeleteRoom = 2,
+        RoomList = 3,
+        EnterRoom = 4,
+        ExitRoom = 5,
+        SendMessage = 6,
+        RoomNotification = 7,
+        Disconnect = 8
     }
 }

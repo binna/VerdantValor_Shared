@@ -1,6 +1,6 @@
 ﻿namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class ExitRoomPayload : IPayload
+public class ExitRoom : IPayload
 {
     public short PayloadSize { get; } = 0;
     

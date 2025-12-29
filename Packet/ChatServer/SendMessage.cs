@@ -2,7 +2,7 @@
 
 namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class SendMessagePayload : IPayload
+public class SendMessage : IPayload
 {
     public short PayloadSize => (short)Encoding.UTF8.GetByteCount(Message);
 

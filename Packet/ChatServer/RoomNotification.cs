@@ -2,7 +2,7 @@
 
 namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class RoomNotificationPayload : IPayload
+public class RoomNotification : IPayload
 {
     public short PayloadSize => (short)Encoding.UTF8.GetByteCount(Notification);
 

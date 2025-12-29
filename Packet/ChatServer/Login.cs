@@ -3,7 +3,7 @@ using System.Text;
 
 namespace SharedLibrary.Protocol.Packet.ChatServer;
 
-public class LoginPayload : IPayload
+public class Login : IPayload
 {
     private const int SESSION_ID_FIELD_SIZE = 36;
     private const int USER_ID_FIELD_SIZE = sizeof(ulong);
