@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.Packet;
+﻿namespace VerdantValor_Shared.Packet;
 
 public interface IPayload
 {

@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.GameData;
+﻿namespace VerdantValor_Shared.GameData;
 
 public class ResponseStatus
 {

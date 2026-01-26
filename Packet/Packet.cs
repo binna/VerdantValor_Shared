@@ -1,6 +1,6 @@
-﻿using SharedLibrary.Protocol.Common.ChatServer;
+﻿using VerdantValor_Shared.Common.ChatServer;
 
-namespace SharedLibrary.Protocol.Packet;
+namespace VerdantValor_Shared.Packet;
 
 public class Packet<T> where T : class, IPayload
 {

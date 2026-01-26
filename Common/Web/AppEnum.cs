@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.Common.Web;
+﻿namespace VerdantValor_Shared.Common.Web;
 
 public static class AppEnum
 {

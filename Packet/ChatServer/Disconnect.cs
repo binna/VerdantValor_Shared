@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.Packet.ChatServer;
+﻿namespace VerdantValor_Shared.Packet.ChatServer;
 
 public class Disconnect : IPayload
 {

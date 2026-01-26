@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.DTOs.Web;
+﻿namespace VerdantValor_Shared.DTOs.Web;
 
 public class RankRes
 {

@@ -1,4 +1,4 @@
-﻿namespace SharedLibrary.Protocol.Common.ChatServer;
+﻿namespace VerdantValor_Shared.Common.ChatServer;
 
 public static class AppEnum
 {
