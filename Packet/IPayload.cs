@@ -1,4 +1,4 @@
-﻿namespace VerdantValor_Shared.Packet;
+﻿namespace VerdantValorShared.Packet;
 
 public interface IPayload
 {

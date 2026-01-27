@@ -1,6 +1,6 @@
 ﻿using System.Buffers.Binary;
 
-namespace VerdantValor_Shared.Packet;
+namespace VerdantValorShared.Packet;
 
 public class Header
 {

@@ -5,7 +5,7 @@
         <ImplicitUsings>enable</ImplicitUsings>
         <Nullable>enable</Nullable>
         <LangVersion>10</LangVersion>
-        <Configurations>Debug;Release;Development;Live</Configurations>
+        <Configurations>Debug;Development</Configurations>
         <Platforms>AnyCPU</Platforms>
     </PropertyGroup>
     

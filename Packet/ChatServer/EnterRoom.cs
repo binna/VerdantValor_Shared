@@ -1,6 +1,6 @@
 ﻿using System.Buffers.Binary;
 
-namespace VerdantValor_Shared.Packet.ChatServer;
+namespace VerdantValorShared.Packet.ChatServer;
 
 public class EnterRoom : IPayload
 {

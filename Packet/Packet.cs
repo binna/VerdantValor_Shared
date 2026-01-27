@@ -1,6 +1,6 @@
-﻿using VerdantValor_Shared.Common.ChatServer;
+﻿using VerdantValorShared.Common.ChatServer;
 
-namespace VerdantValor_Shared.Packet;
+namespace VerdantValorShared.Packet;
 
 public class Packet<T> where T : class, IPayload
 {

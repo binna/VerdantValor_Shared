@@ -1,4 +1,4 @@
-﻿namespace VerdantValor_Shared.Common.Web;
+﻿namespace VerdantValorShared.Common.Web;
 
 public static class AppEnum
 {

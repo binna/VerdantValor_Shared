@@ -1,6 +1,6 @@
-﻿using VerdantValor_Shared.Common.Web;
+﻿using VerdantValorShared.Common.Web;
 
-namespace VerdantValor_Shared.DTOs.Web;
+namespace VerdantValorShared.DTOs.Web;
 
 public class AuthReq
 {

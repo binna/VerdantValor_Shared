@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace VerdantValor_Shared.Packet.ChatServer;
+namespace VerdantValorShared.Packet.ChatServer;
 
 public class SendMessage : IPayload
 {

@@ -1,4 +1,4 @@
-﻿namespace VerdantValor_Shared.DTOs.Web;
+﻿namespace VerdantValorShared.DTOs.Web;
 
 public class SetCustomNowReq
 {
