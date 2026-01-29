@@ -9,7 +9,7 @@ public class Login : IPayload
     private const int USER_ID_FIELD_SIZE = sizeof(ulong);
     
     public short PayloadSize { get; } = SESSION_ID_FIELD_SIZE + USER_ID_FIELD_SIZE;
-    
+
     public string SessionId { get; set; }
     public ulong UserId { get; set; }
 

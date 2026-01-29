@@ -17,7 +17,7 @@ public class EnterRoom : IPayload
     {
         var buffer = new byte[PayloadSize];
 
-        BinaryPrimitives.WriteInt64BigEndian(buffer, RoomId);
+        BinaryPrimitives.WriteInt32BigEndian(buffer, RoomId);
 
         return buffer;
     }
