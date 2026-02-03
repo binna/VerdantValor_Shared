@@ -1,0 +1,156 @@
+﻿{
+  "Data": [
+    {
+      "Code": 1000,
+      "IsSuccess": true,
+      "Messages": [
+        "요청에 성공하였습니다.",
+        "Request succeeded."
+      ]
+    },
+    {
+      "Code": 1001,
+      "IsSuccess": true,
+      "Messages": [
+        "요청은 성공했지만 랭킹 데이터가 없습니다.",
+        "Request succeeded, but ranking data is empty."
+      ]
+    },
+    {
+      "Code": 2000,
+      "IsSuccess": false,
+      "Messages": [
+        "필수 입력값이 비어 있습니다.",
+        "A required field is missing or empty."
+      ]
+    },
+    {
+      "Code": 2001,
+      "IsSuccess": false,
+      "Messages": [
+        "입력값이 올바르지 않습니다.",
+        "Invalid input value."
+      ]
+    },
+    {
+      "Code": 2002,
+      "IsSuccess": false,
+      "Messages": [
+        "요청한 데이터를 찾을 수 없습니다.",
+        "No data found for the given request."
+      ]
+    },
+    {
+      "Code": 2003,
+      "IsSuccess": false,
+      "Messages": [
+        "Request 복호화에 실패했습니다.",
+        "Failed to decrypt request."
+      ]
+    },
+    {
+      "Code": 2010, 
+      "IsSuccess": false,
+      "Messages": [
+        "아이디는 영어와 숫자만 사용할 수 있습니다.",
+        "The ID can only contain English letters and numbers."
+      ]
+    },
+    {
+      "Code": 2011,
+      "IsSuccess": false,
+      "Messages": [
+        "이미 사용 중인 아이디입니다.",
+        "This ID is already in use."
+      ]
+    },
+    {
+      "Code": 2012,
+      "IsSuccess": false,
+      "Messages": [
+        "이미 사용 중인 닉네임입니다.",
+        "This nickname is already in use."
+      ]
+    },
+    {
+      "Code": 2013,
+      "IsSuccess": false,
+      "Messages": [
+        "아이디 길이 조건을 만족하지 않습니다.",
+        "The ID length does not meet the requirements."
+      ]
+    },
+    {
+      "Code" :2014,
+      "IsSuccess": false,
+      "Messages": [
+        "닉네임 길이 조건을 만족하지 않습니다.",
+        "The nickname length does not meet the requirements."
+      ]
+    },
+    {
+      "Code": 2015,
+      "IsSuccess": false,
+      "Messages": [
+        "금지된 아이디입니다.",
+        "This ID is not allowed."
+      ]
+    },
+    {
+      "Code": 2016,
+      "IsSuccess": false,
+      "Messages": [
+        "금지된 닉네임입니다.",
+        "This nickname is not allowed."
+      ]
+    },
+    {
+      "Code": 2017,
+      "IsSuccess": false,
+      "Messages": [
+        "비밀번호가 일치하지 않습니다.",
+        "The password does not match."
+      ]
+    },
+    {
+      "Code": 2018,
+      "IsSuccess": false,
+      "Messages": [
+        "닉네임은 영어와 숫자, 한글만 사용할 수 있습니다.",
+        "The nickname can only contain English letters and numbers and korean."
+      ]
+    },
+    {
+      "Code": 2020,
+      "IsSuccess": false,
+      "Messages": [
+        "점수는 음수일 수 없습니다.",
+        "Score cannot be negative."
+      ]
+    },
+    {
+      "Code": 9997,
+      "IsSuccess": false,
+      "Messages": [
+        "Redis 에러가 발생했습니다.",
+        "Redis error has occurred."
+      ]
+    },
+    {
+      "Code": 9998,
+      "IsSuccess": false,
+      "Messages": [
+        "DB 에러가 발생했습니다.",
+        "DB error has occurred."
+      ]
+    },
+    {
+      "Code": 9999,
+      "IsSuccess": false,
+      "Messages": [
+        "예상하지 못한 오류가 발생했습니다.",
+        "An unexpected error has occurred."
+      ]
+    }
+  ]
+}
