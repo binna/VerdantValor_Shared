@@ -8,7 +8,7 @@ public readonly struct Packet<T> where T : struct, IPacketBody
     private readonly PacketHeader mHeader;
     private readonly T mPayload;
 
-    private byte[] PacketBytes { get; }
+    public byte[] PacketBytes { get; }
 
     public Packet(EPacket type, T payload)
     {
