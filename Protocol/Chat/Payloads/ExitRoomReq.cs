@@ -4,5 +4,5 @@ using Protocol.Chat.Frames;
 namespace Protocol.Chat.Payloads;
 
 [MemoryPackable]
-public partial struct ExitRoom : IPacketBody
+public partial struct ExitRoomReq : IPacketBody
 { }

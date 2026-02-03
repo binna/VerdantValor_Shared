@@ -4,7 +4,7 @@ using Protocol.Chat.Frames;
 namespace Protocol.Chat.Payloads;
 
 [MemoryPackable]
-public partial struct EnterRoom : IPacketBody
+public partial struct SendMessageReq : IPacketBody
 {
-    public int RoomId { get; set; }
+    public string Message { get; set; }
 }
