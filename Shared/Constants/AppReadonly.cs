@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace Common.Base;
+namespace Shared.Constants;
 
 public static class AppReadonly
 {

@@ -1,4 +1,4 @@
-﻿namespace Common.Base;
+﻿namespace Shared.Constants;
 
 public static class ExceptionMessage
 {
