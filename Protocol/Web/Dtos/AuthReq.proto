@@ -1,0 +1,11 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message AuthReq {
+  string AuthType = 1;
+  string Nickname = 2;
+  string Email = 3;
+  string Pw = 4;
+  string Language = 5;
+}

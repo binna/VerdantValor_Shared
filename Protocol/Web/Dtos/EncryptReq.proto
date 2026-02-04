@@ -1,0 +1,9 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message EncryptReq {
+  string Nonce = 1;
+  string Tag = 2;
+  string Data = 3;
+}

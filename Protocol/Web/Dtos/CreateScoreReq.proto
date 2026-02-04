@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message CreateScoreReq {
+  string Type = 1;
+  double Score = 2;
+}

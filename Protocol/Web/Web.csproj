@@ -11,4 +11,21 @@
       <ProjectReference Include="..\..\Shared\Shared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Google.Protobuf" Version="3.34.0-rc1" />
+      <PackageReference Include="Grpc.Tools" Version="2.76.0">
+        <PrivateAssets>all</PrivateAssets>
+        <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      </PackageReference>
+    </ItemGroup>
+
+    <ItemGroup>
+        <Protobuf Include="Dtos\AuthReq.proto" />
+        <Protobuf Include="Dtos\CreateScoreReq.proto" />
+        <Protobuf Include="Dtos\EncryptReq.proto" />
+        <Protobuf Include="Dtos\GetRankReq.proto" />
+        <Protobuf Include="Dtos\RankRes.proto" />
+        <Protobuf Include="Dtos\SetCustomNowReq.proto" />
+    </ItemGroup>
+
 </Project>

@@ -1,0 +1,13 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message RankRes {
+  repeated RankInfo rankings = 1;
+}
+
+message RankInfo {
+  int64 Rank = 1;
+  string Nickname = 2;
+  double Score = 3;
+}
