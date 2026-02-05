@@ -7,9 +7,9 @@
 ## 구성
 클라이언트와 서버에서 공유하는 파일을 다음과 같이 **3개의 라이브러리로 구분**합니다.    
 
-1. **Web 서버 프로토콜**
-2. **WebServer 서버 프로토콜**
-3. **공통**
-   - 상수
-   - GameData
-   - Type (Enum 또는 readonly struct)
+1. [**채팅 서버 프로토콜**](./Protocol/Chat)
+2. [**웹 서버 프로토콜**](./Protocol/Web)
+3. [**공통**](./Shared)
+   - [상수](./Shared/Constants)
+   - [GameData](./Shared/GameData)
+   - [타입 (Enum 또는 readonly struct)](./Shared/Types)
