@@ -17,5 +17,5 @@ public static class AppConstant
     public const int RANKING_MIN = 50;
     public const int RANKING_MAX = 100;
 
-    public const int HEADER_SIZE = sizeof(int) + sizeof(EPacket);
+    public const int HEADER_SIZE = sizeof(int) + sizeof(EPacket) + sizeof(int);
 }

@@ -121,11 +121,51 @@
       ]
     },
     {
+      "Code": 2019,
+      "IsSuccess": false,
+      "Messages": [
+        "로그인이 필요합니다.",
+        "Login is required."
+      ]
+    },
+    {
       "Code": 2020,
       "IsSuccess": false,
       "Messages": [
         "점수는 음수일 수 없습니다.",
         "Score cannot be negative."
+      ]
+    },
+    {
+      "Code": 2030,
+      "IsSuccess": false,
+      "Messages": [
+        "이미 방 안에 들어가 있습니다.",
+        "You are already in the room."
+      ]
+    },
+    {
+      "Code": 2031,
+      "IsSuccess": false,
+      "Messages": [
+        "이미 방을 나갔습니다.",
+        "You are already out of the room."
+      ]
+    },
+    {
+      "Code": 2032,
+      "IsSuccess": false,
+      "Messages": [
+        "현재 해당 방에 참여 중이 아닙니다.",
+        "You are not in this room."
+      ]
+    },
+    {
+      "Code": 2033,
+      "IsSuccess": false,
+      "Messages": [
+        "검색된 방이 없습니다.",
+        "No room selected."
       ]
     },
     {

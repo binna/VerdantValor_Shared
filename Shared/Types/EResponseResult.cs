@@ -21,8 +21,14 @@ public enum EResponseResult
     ForbiddenNickname = 2016,
     NotMatchPw  = 2017,
     NicknameAlphabetKoreanNumberOnly = 2018,
+    LoginRequired = 2019,
     
     ScoreCannotBeNegative = 2020,
+    
+    AlreadyInRoom = 2030,
+    AlreadyOutOfRoom = 2031,
+    NotInRoom = 2032,
+    NoRoomSelected = 2033,
     
     // 시스템 에러
     RedisError = 9997,

@@ -20,44 +20,16 @@ public readonly struct Packet<T> where T : struct, IPacketBody
             PayloadSize = payloadBytes.Length,
             PacketType = type
         };
-        
-        var headerBytes = MemoryPackSerializer.Serialize(mPayload);
-        
-        var bufferBytes = new byte[headerBytes.Length + payloadBytes.Length];
+        var headerBytes = MemoryPackSerializer.Serialize(mHeader);
 
+        PacketBytes = new byte[headerBytes.Length + payloadBytes.Length];
         Buffer.BlockCopy(
             headerBytes, 0,
-            bufferBytes, 0, 
+            PacketBytes, 0,
             headerBytes.Length);
-        
         Buffer.BlockCopy(
-            headerBytes, 0,
-            bufferBytes, headerBytes.Length, 
-            headerBytes.Length);
-        
-        PacketBytes =  bufferBytes;
-    }
-    
-    public Packet(PacketHeader header, T payload)
-    {
-        mHeader = header;
-        mPayload = payload;
-        
-        var headerBytes = MemoryPackSerializer.Serialize(mPayload);
-        var payloadBytes = MemoryPackSerializer.Serialize(mPayload);
-
-        var bufferBytes = new byte[headerBytes.Length + payloadBytes.Length];
-
-        Buffer.BlockCopy(
-            headerBytes, 0,
-            bufferBytes, 0, 
-            headerBytes.Length);
-        
-        Buffer.BlockCopy(
-            headerBytes, 0,
-            bufferBytes, headerBytes.Length, 
-            headerBytes.Length);
-        
-        PacketBytes =  bufferBytes;
+            payloadBytes, 0,
+            PacketBytes, headerBytes.Length,
+            payloadBytes.Length);
     }
 }
