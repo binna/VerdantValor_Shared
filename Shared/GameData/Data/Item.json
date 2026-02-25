@@ -1,0 +1,136 @@
+﻿{
+  "Data": [
+    {
+      "ItemId": 1,
+      "ItemKind": 3,
+      "PotionType" : 1,
+      "Name": [
+        "체력 포션(10)",
+        "HP Potion(10)"
+      ],
+      "Value": 10,
+      "Timer": 0
+    },
+    {
+      "ItemId": 2,
+      "ItemKind": 3,
+      "PotionType" : 1,
+      "Name": [
+        "체력 포션(20)",
+        "HP Potion(20)"
+      ],
+      "Value": 20,
+      "Timer": 0
+    },
+    {
+      "ItemId": 3,
+      "ItemKind": 3,
+      "PotionType" : 1,
+      "Name": [
+        "체력 포션(50)",
+        "HP Potion(50)"
+      ],
+      "Value": 50,
+      "Timer": 0
+    },
+    {
+      "ItemId": 4,
+      "ItemKind": 3,
+      "PotionType" : 1,
+      "Name": [
+        "체력 포션(100)",
+        "HP Potion(100)"
+      ],
+      "Value": 100,
+      "Timer": 0
+    },
+    {
+      "ItemId": 5,
+      "ItemKind": 3,
+      "PotionType" : 2,
+      "Name": [
+        "공격력 증가 포션(3, 10초)",
+        "Attack Up Potion(3, 10 Sec)"
+      ],
+      "Value": 3,
+      "Timer": 10
+    },
+    {
+      "ItemId": 6,
+      "ItemKind": 3,
+      "PotionType" : 2,
+      "Name": [
+        "공격력 증가 포션(5, 10초)",
+        "Attack Up Potion(5, 10 Sec)"
+      ],
+      "Value": 5,
+      "Timer": 10
+    },
+    {
+      "ItemId": 7,
+      "ItemKind": 3,
+      "PotionType" : 2,
+      "Name": [
+        "공격력 증가 포션(10, 20초)",
+        "Attack Up Potion(10, 20 Sec)"
+      ],
+      "Value": 10,
+      "Timer": 20
+    },
+    {
+      "ItemId": 8,
+      "ItemKind": 3,
+      "PotionType" : 2,
+      "Name": [
+        "공격력 증가 포션(15, 30초)",
+        "Attack Up Potion(15, 30 Sec)"
+      ],
+      "Value": 15,
+      "Timer": 30
+    },
+    {
+      "ItemId": 9,
+      "ItemKind": 1,
+      "PotionType" : 0,
+      "Name": [
+        "골드 10",
+        "Gold 10"
+      ],
+      "Value": 10,
+      "Timer": 0
+    },
+    {
+      "ItemId": 10,
+      "ItemKind": 1,
+      "PotionType" : 0,
+      "Name": [
+        "골드 50",
+        "Gold 50"
+      ],
+      "Value": 50,
+      "Timer": 0
+    },
+    {
+      "ItemId": 11,
+      "ItemKind": 1,
+      "PotionType" : 0,
+      "Name": [
+        "골드 100",
+        "Gold 100"
+      ],
+      "Value": 100,
+      "Timer": 0
+    },
+    {
+      "ItemId": 12,
+      "ItemKind": 1,
+      "PotionType" : 0,
+      "Name": [
+        "골드 500",
+        "Gold 500"
+      ],
+      "Value": 500,
+      "Timer": 0
+    }
+  ]
+}
