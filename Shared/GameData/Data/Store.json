@@ -1,0 +1,14 @@
+﻿{
+  "Data": [
+    {
+      "StoreId": 1,
+      "Items": [
+        { "ItemId": 3, "Amount": 1 }
+      ],
+      "Price": 100,
+      "TextId": 37,
+      "CurrencyType": 1,
+      "MaxPurchaseCount": 1
+    }
+  ]
+}

@@ -1,0 +1,263 @@
+﻿{
+  "Data": [
+    {
+      "TextId": 1,
+      "Values": [
+        "요청에 성공하였습니다.",
+        "Request succeeded."
+      ]
+    },
+    {
+      "TextId": 2,
+      "Values": [
+        "요청은 성공했지만 랭킹 데이터가 없습니다.",
+        "Request succeeded, but ranking data is empty."
+      ]
+    },
+    {
+      "TextId": 3,
+      "Values": [
+        "필수 입력값이 비어 있습니다.",
+        "A required field is missing or empty."
+      ]
+    },
+    {
+      "TextId": 4,
+      "Values": [
+        "입력값이 올바르지 않습니다.",
+        "Invalid input value."
+      ]
+    },
+    {
+      "TextId": 5,
+      "Values": [
+        "요청한 데이터를 찾을 수 없습니다.",
+        "No data found for the given request."
+      ]
+    },
+    {
+      "TextId": 6,
+      "Values": [
+        "Request 복호화에 실패했습니다.",
+        "Failed to decrypt request."
+      ]
+    },
+    {
+      "TextId": 7,
+      "Values": [
+        "아이디는 영어와 숫자만 사용할 수 있습니다.",
+        "The ID can only contain English letters and numbers."
+      ]
+    },
+    {
+      "TextId": 8,
+      "Values": [
+        "이미 사용 중인 아이디입니다.",
+        "This ID is already in use."
+      ]
+    },
+    {
+      "TextId": 9,
+      "Values": [
+        "이미 사용 중인 닉네임입니다.",
+        "This nickname is already in use."
+      ]
+    },
+    {
+      "TextId": 10,
+      "Values": [
+        "아이디 길이 조건을 만족하지 않습니다.",
+        "The ID length does not meet the requirements."
+      ]
+    },
+    {
+      "TextId": 11,
+      "Values": [
+        "닉네임 길이 조건을 만족하지 않습니다.",
+        "The nickname length does not meet the requirements."
+      ]
+    },
+    {
+      "TextId": 12,
+      "Values": [
+        "금지된 아이디입니다.",
+        "This ID is not allowed."
+      ]
+    },
+    {
+      "TextId": 13,
+      "Values": [
+        "금지된 닉네임입니다.",
+        "This nickname is not allowed."
+      ]
+    },
+    {
+      "TextId": 14,
+      "Values": [
+        "비밀번호가 일치하지 않습니다.",
+        "The password does not match."
+      ]
+    },
+    {
+      "TextId": 15,
+      "Values": [
+        "닉네임은 영어와 숫자, 한글만 사용할 수 있습니다.",
+        "The nickname can only contain English letters and numbers and korean."
+      ]
+    },
+    {
+      "TextId": 16,
+      "Values": [
+        "로그인이 필요합니다.",
+        "Login is required."
+      ]
+    },
+    {
+      "TextId": 17,
+      "Values": [
+        "점수는 음수일 수 없습니다.",
+        "Score cannot be negative."
+      ]
+    },
+    {
+      "TextId": 18,
+      "Values": [
+        "이미 방 안에 들어가 있습니다.",
+        "You are already in the room."
+      ]
+    },
+    {
+      "TextId": 19,
+      "Values": [
+        "이미 방을 나갔습니다.",
+        "You are already out of the room."
+      ]
+    },
+    {
+      "TextId": 20,
+      "Values": [
+        "현재 해당 방에 참여 중이 아닙니다.",
+        "You are not in this room."
+      ]
+    },
+    {
+      "TextId": 21,
+      "Values": [
+        "검색된 방이 없습니다.",
+        "No room selected."
+      ]
+    },
+    {
+      "TextId": 22,
+      "Values": [
+        "Redis 에러가 발생했습니다.",
+        "Redis error has occurred."
+      ]
+    },
+    {
+      "TextId": 23,
+      "Values": [
+        "DB 에러가 발생했습니다.",
+        "DB error has occurred."
+      ]
+    },
+    {
+      "TextId": 24,
+      "Values": [
+        "예상하지 못한 오류가 발생했습니다.",
+        "An unexpected error has occurred."
+      ]
+    },
+    {
+      "TextId": 25,
+      "Values": [
+        "체력 포션(10)",
+        "HP Potion(10)"
+      ]
+    },
+    {
+      "TextId": 26,
+      "Values": [
+        "체력 포션(20)",
+        "HP Potion(20)"
+      ]
+    },
+    {
+      "TextId": 27,
+      "Values": [
+        "체력 포션(50)",
+        "HP Potion(50)"
+      ]
+    },
+    {
+      "TextId": 28,
+      "Values": [
+        "체력 포션(100)",
+        "HP Potion(100)"
+      ]
+    },
+    {
+      "TextId": 29,
+      "Values": [
+        "공격력 증가 포션(3, 10초)",
+        "Attack Up Potion(3, 10 Sec)"
+      ]
+    },
+    {
+      "TextId": 30,
+      "Values": [
+        "공격력 증가 포션(5, 10초)",
+        "Attack Up Potion(5, 10 Sec)"
+      ]
+    },
+    {
+      "TextId": 31,
+      "Values": [
+        "공격력 증가 포션(10, 20초)",
+        "Attack Up Potion(10, 20 Sec)"
+      ]
+    },
+    {
+      "TextId": 32,
+      "Values": [
+        "공격력 증가 포션(15, 30초)",
+        "Attack Up Potion(15, 30 Sec)"
+      ]
+    },
+    {
+      "TextId": 33,
+      "Values": [
+        "골드 10",
+        "Gold 10"
+      ]
+    },
+    {
+      "TextId": 34,
+      "Values": [
+        "골드 50",
+        "Gold 50"
+      ]
+    },
+    {
+      "TextId": 35,
+      "Values": [
+        "골드 100",
+        "Gold 100"
+      ]
+    },
+    {
+      "TextId": 36,
+      "Values": [
+        "골드 500",
+        "Gold 500"
+      ]
+    },
+    {
+      "TextId": 37,
+      "Values": [
+        "생애 첫 구매",
+        "First purchase in my life"
+      ]
+    }
+  ]
+}
