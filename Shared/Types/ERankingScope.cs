@@ -2,6 +2,6 @@
 
 public enum ERankingScope
 {
-    My = 1,
-    Global = 2
+    My = 0,
+    Global = 1
 }

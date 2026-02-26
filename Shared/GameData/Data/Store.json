@@ -5,7 +5,9 @@
       "Items": [
         { "ItemId": 3, "Amount": 1 }
       ],
-      "Price": 100,
+      "Price": [
+        { "Currency": 0, "Value": 0.0 }
+      ], 
       "TextId": 37,
       "CurrencyType": 1,
       "MaxPurchaseCount": 1

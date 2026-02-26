@@ -2,6 +2,6 @@
 
 public enum EAuth
 {
-    Login = 1,
-    Join = 2
+    Login = 0,
+    Join = 1
 }

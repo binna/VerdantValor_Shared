@@ -2,5 +2,5 @@
 
 public enum ERanking
 {
-    All = 1
+    All = 0
 }

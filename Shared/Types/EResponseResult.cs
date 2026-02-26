@@ -2,6 +2,8 @@
 
 public enum EResponseResult
 {
+    None = 0,
+    
     // 1000 요청 성공
     Success = 1000,
     SuccessEmptyRanking = 1001,
