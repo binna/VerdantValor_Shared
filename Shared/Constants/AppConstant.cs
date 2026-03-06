@@ -4,9 +4,10 @@ namespace Shared.Constants;
 
 public static class AppConstant
 {
+    // TODO 여기서 클라이언트 공유할 수 있는 상수는 따로 빼기
+    
     public const string WEB_SERVER_API_BASE = "api";
     public const string RANKING_ROOT = "Ranking";
-    public const string SHARED_LIBRARY_PATH = @"..\..\..\..\..\VerdantValorShared\Shared";
 
     public const int EAMIL_MIN_LENGTH = 5;
     public const int EAMIL_MAX_LENGTH = 50;
