@@ -1,9 +1,9 @@
 ﻿{
   "Data": [
     {
-      "StoreId": 1,
+      "Id": 1,
       "Items": [
-        { "ItemId": 3, "Amount": 1 }
+        { "Id": 3, "Amount": 1 }
       ],
       "Price": [
         { "Currency": 0, "Value": 0.0 }

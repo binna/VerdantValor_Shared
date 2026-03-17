@@ -4,7 +4,7 @@ namespace Shared.GameData;
 
 public class Item
 {
-    public int ItemId { get; set; }
+    public int Id { get; set; }
     public EItemKind ItemKind { get; set; }
     public EPotionType PotionType { get; set; }
     public ulong TextId { get; set; }

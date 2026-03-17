@@ -1,7 +1,7 @@
 ﻿{
   "Data": [
     {
-      "ItemId": 1,
+      "Id": 1,
       "ItemKind": 3,
       "PotionType" : 1,
       "TextId": 25,
@@ -9,7 +9,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 2,
+      "Id": 2,
       "ItemKind": 3,
       "PotionType" : 1,
       "TextId": 26,
@@ -17,7 +17,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 3,
+      "Id": 3,
       "ItemKind": 3,
       "PotionType" : 1,
       "TextId": 27,
@@ -25,7 +25,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 4,
+      "Id": 4,
       "ItemKind": 3,
       "PotionType" : 1,
       "TextId": 28,
@@ -33,7 +33,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 5,
+      "Id": 5,
       "ItemKind": 3,
       "PotionType" : 2,
       "TextId": 29,
@@ -41,7 +41,7 @@
       "Timer": 10
     },
     {
-      "ItemId": 6,
+      "Id": 6,
       "ItemKind": 3,
       "PotionType" : 2,
       "TextId": 30,
@@ -49,7 +49,7 @@
       "Timer": 10
     },
     {
-      "ItemId": 7,
+      "Id": 7,
       "ItemKind": 3,
       "PotionType" : 2,
       "TextId": 31,
@@ -57,7 +57,7 @@
       "Timer": 20
     },
     {
-      "ItemId": 8,
+      "Id": 8,
       "ItemKind": 3,
       "PotionType" : 2,
       "TextId": 32,
@@ -65,7 +65,7 @@
       "Timer": 30
     },
     {
-      "ItemId": 9,
+      "Id": 9,
       "ItemKind": 1,
       "PotionType" : 0,
       "TextId": 33,
@@ -73,7 +73,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 10,
+      "Id": 10,
       "ItemKind": 1,
       "PotionType" : 0,
       "TextId": 34,
@@ -81,7 +81,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 11,
+      "Id": 11,
       "ItemKind": 1,
       "PotionType" : 0,
       "TextId": 35,
@@ -89,7 +89,7 @@
       "Timer": 0
     },
     {
-      "ItemId": 12,
+      "Id": 12,
       "ItemKind": 1,
       "PotionType" : 0,
       "TextId": 36,
