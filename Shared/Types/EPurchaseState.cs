@@ -2,8 +2,8 @@
 
 public enum EPurchaseState
 {
-    None = 0,
-    InProgress = 1,
-    Complete = 2,
-    Fail = 3,
+    InProgress = 0,
+    Completed = 1,
+    Canceled = 2,
+    Failed = 3
 }

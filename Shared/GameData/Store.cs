@@ -8,7 +8,7 @@ public class Store
     public Item[] Items { get; set; }
     public Price[] Prices { get; set; }
     public ulong TextId { get; set; }
-    public int MaxPurchaseCount { get; set; }
+    public int MaxPurchaseCount { get; set; }       // 0이면 구매 횟수 제한 없음
     
     public class Item
     {

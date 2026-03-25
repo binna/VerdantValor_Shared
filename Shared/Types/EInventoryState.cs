@@ -2,8 +2,7 @@
 
 public enum EInventoryState
 {
-    None = 0,
-    Available = 1,
-    Used = 2,
-    Expired = 3
+    Available = 0,
+    Used = 1,
+    Expired = 2
 }
