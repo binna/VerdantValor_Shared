@@ -10,8 +10,8 @@
     {
       "TextId": 2,
       "Values": [
-        "요청은 성공했지만 랭킹 데이터가 없습니다.",
-        "Request succeeded, but ranking data is empty."
+        "랭킹 데이터가 없습니다.",
+        "No ranking data found."
       ]
     },
     {
@@ -31,15 +31,15 @@
     {
       "TextId": 5,
       "Values": [
-        "요청한 데이터를 찾을 수 없습니다.",
-        "No data found for the given request."
+        "데이터를 찾을 수 없습니다.",
+        "No data found."
       ]
     },
     {
       "TextId": 6,
       "Values": [
-        "Request 복호화에 실패했습니다.",
-        "Failed to decrypt request."
+        "요청 처리 중 오류가 발생했습니다.",
+        "An error occurred while processing the request."
       ]
     },
     {
@@ -66,15 +66,15 @@
     {
       "TextId": 10,
       "Values": [
-        "아이디 길이 조건을 만족하지 않습니다.",
-        "The ID length does not meet the requirements."
+        "아이디 길이가 올바르지 않습니다.",
+        "The ID length is invalid."
       ]
     },
     {
       "TextId": 11,
       "Values": [
-        "닉네임 길이 조건을 만족하지 않습니다.",
-        "The nickname length does not meet the requirements."
+        "닉네임 길이가 올바르지 않습니다.",
+        "The nickname length is invalid."
       ]
     },
     {
@@ -101,8 +101,8 @@
     {
       "TextId": 15,
       "Values": [
-        "닉네임은 영어와 숫자, 한글만 사용할 수 있습니다.",
-        "The nickname can only contain English letters and numbers and korean."
+        "닉네임은 영문, 숫자, 한글만 사용할 수 있습니다.",
+        "The nickname can only contain English letters, numbers, and Korean characters."
       ]
     },
     {
@@ -143,29 +143,29 @@
     {
       "TextId": 21,
       "Values": [
-        "검색된 방이 없습니다.",
+        "선택된 방이 없습니다.",
         "No room selected."
       ]
     },
     {
       "TextId": 22,
       "Values": [
-        "Redis 에러가 발생했습니다.",
-        "Redis error has occurred."
+        "데이터 처리 중 오류가 발생했습니다.",
+        "An error occurred while processing data."
       ]
     },
     {
       "TextId": 23,
       "Values": [
-        "DB 에러가 발생했습니다.",
-        "DB error has occurred."
+        "데이터 저장 중 오류가 발생했습니다.",
+        "An error occurred while saving data."
       ]
     },
     {
       "TextId": 24,
       "Values": [
         "예상하지 못한 오류가 발생했습니다.",
-        "An unexpected error has occurred."
+        "An unexpected error occurred."
       ]
     },
     {
@@ -255,8 +255,36 @@
     {
       "TextId": 37,
       "Values": [
-        "생애 첫 구매",
-        "First purchase in my life"
+        "첫 구매",
+        "First Purchase"
+      ]
+    },
+    {
+      "TextId": 38,
+      "Values": [
+        "사용자 정보가 올바르지 않습니다.",
+        "Invalid user information"
+      ]
+    },
+    {
+      "TextId": 39,
+      "Values": [
+        "요청 처리 중 오류가 발생했습니다.",
+        "An error occurred while processing the request."
+      ]
+    },
+    {
+      "TextId": 40,
+      "Values": [
+        "구매 가능 횟수를 초과했습니다.",
+        "Purchase limit exceeded."
+      ]
+    },
+    {
+      "TextId": 41,
+      "Values": [
+        "상품 정보를 찾을 수 없습니다.",
+        "The store item could not be found."
       ]
     }
   ]

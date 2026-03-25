@@ -13,6 +13,8 @@ public enum EResponseResult
     InvalidInput =  2001,
     NoData = 2002,
     FailDecrypt = 2003,
+    InvalidUserId = 2004,
+    LockAcquisitionFailed = 2005,
     
     EmailAlphabetNumberOnly = 2010,
     EmailAlreadyExists = 2011,
@@ -31,6 +33,10 @@ public enum EResponseResult
     AlreadyOutOfRoom = 2031,
     NotInRoom = 2032,
     NoRoomSelected = 2033,
+    
+    StoreNotFound = 2040,
+    PurchaseLimitExceeded = 2041,
+    LockReleaseFailed = 2042,
     
     // 시스템 에러
     RedisError = 9997,

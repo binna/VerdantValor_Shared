@@ -31,6 +31,16 @@
       "TextId": 6
     },
     {
+      "Code": 2004,
+      "IsSuccess": false,
+      "TextId": 38
+    },
+    {
+      "Code": 2005,
+      "IsSuccess": false,
+      "TextId": 39
+    },
+    {
       "Code": 2010, 
       "IsSuccess": false,
       "TextId": 7
@@ -104,6 +114,21 @@
       "Code": 2033,
       "IsSuccess": false,
       "TextId": 21
+    },
+    {
+      "Code": 2040,
+      "IsSuccess": false,
+      "TextId": 41
+    },
+    {
+      "Code": 2041,
+      "IsSuccess": false,
+      "TextId": 40
+    },
+    {
+      "Code": 2042,
+      "IsSuccess": false,
+      "TextId": 39
     },
     {
       "Code": 9997,
