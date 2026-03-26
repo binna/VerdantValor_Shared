@@ -21,6 +21,7 @@
 
     <ItemGroup>
         <Protobuf Include="Dtos\AuthReq.proto" />
+        <Protobuf Include="Dtos\BuyReq.proto" />
         <Protobuf Include="Dtos\CreateScoreReq.proto" />
         <Protobuf Include="Dtos\EncryptReq.proto" />
         <Protobuf Include="Dtos\GetRankReq.proto" />

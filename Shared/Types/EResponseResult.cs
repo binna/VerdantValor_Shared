@@ -37,6 +37,7 @@ public enum EResponseResult
     StoreNotFound = 2040,
     PurchaseLimitExceeded = 2041,
     LockReleaseFailed = 2042,
+    ItemCreationFailed = 2043,
     
     // 시스템 에러
     RedisError = 9997,
