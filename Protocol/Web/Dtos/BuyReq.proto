@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message BuyReq {
+  int32 storeId = 1;
+}
