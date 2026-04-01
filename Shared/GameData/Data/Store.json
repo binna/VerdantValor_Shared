@@ -5,12 +5,11 @@
       "Items": [
         { "Id": 3, "Amount": 1 }
       ],
-      "Prices": [
-        { "Currency": 0, "Value": 0.0 },
-        { "Currency": 1, "Value": 0.0 }
-      ], 
+      "Prices": { 
+        "Gold": 0.0
+      },
       "TextId": 37,
-      "CurrencyType": 1,
+      "CurrencyType": 0,
       "MaxPurchaseCount": 1
     }
   ]
