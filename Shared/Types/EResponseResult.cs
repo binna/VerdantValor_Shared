@@ -16,7 +16,7 @@ public enum EResponseResult
     InvalidUserId = 2004,
     LockAcquisitionFailed = 2005,
     
-    EmailAlphabetNumberOnly = 2010,
+    InvalidEmailFormat = 2010,
     EmailAlreadyExists = 2011,
     NicknameAlreadyExists = 2012,
     InvalidEmailLength = 2013,
@@ -24,21 +24,22 @@ public enum EResponseResult
     ForbiddenEmail = 2015,
     ForbiddenNickname = 2016,
     NotMatchPw  = 2017,
-    NicknameAlphabetKoreanNumberOnly = 2018,
+    InvalidNicknameFormat = 2018,
     LoginRequired = 2019,
+    InvalidPasswordFormat = 2020,
     
-    ScoreCannotBeNegative = 2020,
+    ScoreCannotBeNegative = 2040,
     
-    AlreadyInRoom = 2030,
-    AlreadyOutOfRoom = 2031,
-    NotInRoom = 2032,
-    NoRoomSelected = 2033,
+    AlreadyInRoom = 2050,
+    AlreadyOutOfRoom = 2051,
+    NotInRoom = 2052,
+    NoRoomSelected = 2053,
     
-    StoreNotFound = 2040,
-    PurchaseLimitExceeded = 2041,
-    LockReleaseFailed = 2042,
-    ItemCreationFailed = 2043,
-    PurchaseFailed = 2044,
+    StoreNotFound = 2080,
+    PurchaseLimitExceeded = 2081,
+    LockReleaseFailed = 2082,
+    ItemCreationFailed = 2083,
+    PurchaseFailed = 2084,
     
     // 시스템 에러
     RedisError = 9997,
