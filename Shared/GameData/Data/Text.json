@@ -59,8 +59,8 @@
     {
       "TextId": 9,
       "Values": [
-        "이미 사용 중인 닉네임입니다.",
-        "This nickname is already in use."
+        "일시적인 오류가 발생했습니다. 잠시 후 다시 시도해주세요.",
+        "A temporary error occurred. Please try again later."
       ]
     },
     {
@@ -297,8 +297,15 @@
     {
       "TextId": 43,
       "Values": [
-        "비밀번호는 영문, 숫자, 특수문자(!@#$%^&*)를 각각 하나 이상 포함한 8~64자여야 합니다.",
-        "Password must be 8–64 characters long and include at least one letter, one number, and one special character (!@#$%^&*)."
+        "비밀번호는 영문, 숫자, 특수문자(!@#$%^&*)를 각각 하나 이상 포함해야 합니다.",
+        "Password must include at least one letter, one number, and one special character (!@#$%^&*)."
+      ]
+    },
+    {
+      "TextId": 44,
+      "Values": [
+        "비밀번호는 8 ~ 64자여야 합니다.",
+        "Password must be between 8 and 64 characters long."
       ]
     }
   ]

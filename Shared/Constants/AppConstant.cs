@@ -14,6 +14,9 @@ public static class AppConstant
 
     public const int NICKNAME_MIN_LENGTH = 3;
     public const int NICKNAME_MAX_LENGTH = 30;
+    
+    public const int PASSWORD_MIN_LENGTH = 8;
+    public const int PASSWORD_MAX_LENGTH = 64;
 
     public const int RANKING_MIN = 50;
     public const int RANKING_MAX = 100;
