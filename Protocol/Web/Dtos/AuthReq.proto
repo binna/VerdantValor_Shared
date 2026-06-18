@@ -7,5 +7,6 @@ message AuthReq {
   string Nickname = 2;
   string Email = 3;
   string Pw = 4;
-  string Language = 5;
+  string DeviceId = 5;
+  string Language = 6;
 }
