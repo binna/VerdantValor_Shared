@@ -1,0 +1,7 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message AuthRes {
+  string sessionId = 1;
+}
