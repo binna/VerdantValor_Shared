@@ -34,18 +34,20 @@ public enum EResponseResult
     // Score: 2040 ~ 2049
     ScoreCannotBeNegative = 2040,
     
-    // Room: 2050 ~ 2059
-    AlreadyInRoom = 2050,
-    AlreadyOutOfRoom = 2051,
-    NotInRoom = 2052,
-    NoRoomSelected = 2053,
-    
     // Shop: 2080 ~ 2089
     StoreNotFound = 2080,
     PurchaseLimitExceeded = 2081,
     LockReleaseFailed = 2082,
     ItemCreationFailed = 2083,
     PurchaseFailed = 2084,
+    
+    // World, Room: 2050 ~ 2059
+    AlreadyIn = 2050,
+    AlreadyOut = 2051,
+    NoneSelected = 2052,
+    
+    // Chat: 2100 ~ 2199
+    SendMessageInvalidTarget = 2100,
     
     // System: 9990~9999
     RedisError = 9997,
