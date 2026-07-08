@@ -122,29 +122,29 @@
     {
       "TextId": 18,
       "Values": [
-        "이미 방 안에 들어가 있습니다.",
-        "You are already in the room."
+        "이미 참여 중입니다.",
+        "You are already in."
       ]
     },
     {
       "TextId": 19,
       "Values": [
-        "이미 방을 나갔습니다.",
-        "You are already out of the room."
+        "이미 나갔습니다.",
+        "You have already left."
       ]
     },
     {
       "TextId": 20,
       "Values": [
-        "현재 해당 방에 참여 중이 아닙니다.",
-        "You are not in this room."
+        "현재 참여 중이 아닙니다.",
+        "You are not currently in."
       ]
     },
     {
       "TextId": 21,
       "Values": [
-        "선택된 방이 없습니다.",
-        "No room selected."
+        "선택된 대상이 없습니다.",
+        "No target selected."
       ]
     },
     {
@@ -306,6 +306,13 @@
       "Values": [
         "비밀번호는 8 ~ 64자여야 합니다.",
         "Password must be between 8 and 64 characters long."
+      ]
+    },
+    {
+      "TextId": 45,
+      "Values": [
+        "메시지를 전달할 대상이 올바르지 않습니다.",
+        "Invalid message target."
       ]
     }
   ]

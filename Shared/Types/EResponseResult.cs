@@ -8,7 +8,7 @@ public enum EResponseResult
     Success = 1000,
     SuccessEmptyRanking = 1001,
     
-    // Common: 2000 ~ 2009
+    // Common: 2000 ~ 2099
     EmptyRequiredField = 2000,
     InvalidInput =  2001,
     NoData = 2002,
@@ -16,40 +16,41 @@ public enum EResponseResult
     InvalidUserId = 2004,
     LockAcquisitionFailed = 2005,
     
-    // Auth: 2010 ~ 2039
-    InvalidEmailFormat = 2010,
-    EmailAlreadyExists = 2011,
-    InvalidEmailLength = 2012,
-    InvalidNicknameLength = 2013,
-    ForbiddenEmail = 2014,
-    ForbiddenNickname = 2015,
-    PasswordMismatch  = 2016,
-    InvalidNicknameFormat = 2017,
-    LoginRequired = 2018,
-    InvalidPasswordFormat = 2019,
-    InvalidPasswordLength = 2020,
-    InvalidAuthType = 2021,
-    LoginFailed = 2022,
+    // Auth: 2110 ~ 2159
+    InvalidEmailFormat = 2110,
+    EmailAlreadyExists = 2111,
+    InvalidEmailLength = 2112,
+    InvalidNicknameLength = 2113,
+    ForbiddenEmail = 2114,
+    ForbiddenNickname = 2115,
+    PasswordMismatch  = 2116,
+    InvalidNicknameFormat = 2117,
+    LoginRequired = 2118,
+    InvalidPasswordFormat = 2119,
+    InvalidPasswordLength = 2120,
+    InvalidAuthType = 2121,
+    LoginFailed = 2122,
     
-    // Score: 2040 ~ 2049
-    ScoreCannotBeNegative = 2040,
+    // Score: 2160 ~ 2179
+    ScoreCannotBeNegative = 2160,
     
-    // Shop: 2080 ~ 2089
-    StoreNotFound = 2080,
-    PurchaseLimitExceeded = 2081,
-    LockReleaseFailed = 2082,
-    ItemCreationFailed = 2083,
-    PurchaseFailed = 2084,
+    // Shop: 2180 ~ 2199
+    StoreNotFound = 2180,
+    PurchaseLimitExceeded = 2181,
+    LockReleaseFailed = 2182,
+    ItemCreationFailed = 2183,
+    PurchaseFailed = 2184,
     
-    // World, Room: 2050 ~ 2059
-    AlreadyIn = 2050,
-    AlreadyOut = 2051,
-    NoneSelected = 2052,
+    // World, Party: 2200 ~ 2399
+    AlreadyIn = 2200,
+    AlreadyOut = 2201,
+    NotIn = 2202,
+    NoneSelected = 2203,
     
-    // Chat: 2100 ~ 2199
-    SendMessageInvalidTarget = 2100,
+    // Chat: 2400 ~ 2599
+    SendMessageInvalidTarget = 2400,
     
-    // System: 9990~9999
+    // System: 9990 ~ 9999
     RedisError = 9997,
     DbError = 9998,
     UnexpectedError = 9999,
