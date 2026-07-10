@@ -7,5 +7,6 @@ namespace Protocol.Chat.Payloads;
 public partial struct MessageKind
 {
     public long Id { get; set; }
+    public MessageCategory Category { get; set; }
     public MessageType Type { get; set; }
 }
