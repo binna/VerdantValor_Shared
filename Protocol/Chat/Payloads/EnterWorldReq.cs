@@ -6,5 +6,5 @@ namespace Protocol.Chat.Payloads;
 [MemoryPackable]
 public partial struct EnterWorldReq : IPacketBody
 {
-    public string worldName { get; set; }
+    public string WorldName { get; set; }
 }
