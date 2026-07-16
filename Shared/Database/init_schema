@@ -72,12 +72,11 @@ INSERT INTO gameUser (gold, exp, nickname, email, pw, createdAt, updatedAt) VALU
 
 DROP TABLE chatParty;
 CREATE TABLE chatParty (
-    id          BIGINT UNSIGNED NOT NULL AUTO_INCREMENT,
+    partyId     CHAR(32)        NOT NULL,
     name		VARCHAR(50)		NOT NULL,
 
     PRIMARY KEY (id)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
 
 DROP TABLE chatPartyMember;
 CREATE TABLE chatPartyMember (
@@ -86,3 +85,5 @@ CREATE TABLE chatPartyMember (
 
     PRIMARY KEY (partyId, userId)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO chatParty (partyId, name) VALUES ('TestTestTestTestTestTestTestTest', 'Test');
