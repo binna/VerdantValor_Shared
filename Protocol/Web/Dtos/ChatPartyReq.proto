@@ -1,0 +1,8 @@
+﻿syntax = "proto3";
+
+option csharp_namespace = "Protocol.Web.Dtos";
+
+message ChatPartyReq
+{
+  string ChatPartyType = 1;
+}

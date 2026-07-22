@@ -70,24 +70,6 @@ INSERT INTO gameUser (gold, exp, nickname, email, pw, createdAt, updatedAt) VALU
 INSERT INTO gameUser (gold, exp, nickname, email, pw, createdAt, updatedAt) VALUES (0, 0, "user19", "user19", "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db", "2025-10-22 16:14:41.069637", "2025-10-22 16:14:41.069637");
 INSERT INTO gameUser (gold, exp, nickname, email, pw, createdAt, updatedAt) VALUES (0, 0, "user20", "user20", "d404559f602eab6fd602ac7680dacbfaadd13630335e951f097af3900e9de176b6db28512f2e000b9d04fba5133e8b1c6e8df59db3a8ab9d60be4b97cc9e81db", "2025-10-22 16:14:41.069637", "2025-10-22 16:14:41.069637");
 
-DROP TABLE chatParty;
-CREATE TABLE chatParty (
-    partyId     CHAR(32)        NOT NULL,
-    name		VARCHAR(50)		NOT NULL,
-
-    PRIMARY KEY (partyId)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-DROP TABLE chatPartyMember;
-CREATE TABLE chatPartyMember (
-    partyId     BIGINT UNSIGNED NOT NULL,
-    userId      BIGINT UNSIGNED NOT NULL,
-
-    PRIMARY KEY (partyId, userId)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-
-INSERT INTO chatParty (partyId, name) VALUES ('TestTestTestTestTestTestTestTest', 'Test');
-
 DROP TABLE directMessage;
 CREATE TABLE directMessage (
     id              CHAR(32)        NOT NULL,
@@ -100,3 +82,32 @@ CREATE TABLE directMessage (
     PRIMARY KEY (id),
     INDEX idx_directMessage_receiverUserId_createdAt (receiverUserId, createdAt) 
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+DROP TABLE chatParty;
+CREATE TABLE chatParty (
+    partyId     CHAR(32)        NOT NULL,
+    name		VARCHAR(50)		NOT NULL,
+    ownerUserId BIGINT UNSIGNED NOT NULL,
+
+    PRIMARY KEY (partyId)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+DROP TABLE chatPartyMember;
+CREATE TABLE chatPartyMember (
+    partyId     CHAR(32)        NOT NULL,
+    userId      BIGINT UNSIGNED NOT NULL,
+
+    PRIMARY KEY (partyId, userId),
+    INDEX idx_chatPartyMember_partyId (partyId) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+DROP TABLE chatPartyInvitation;
+CREATE TABLE chatPartyInvitation (
+    partyId     CHAR(32)        NOT NULL,
+    userId      BIGINT UNSIGNED NOT NULL,
+
+    PRIMARY KEY (partyId, userId),
+    INDEX idx_chatPartyInvitation_partyId (partyId) 
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+INSERT INTO chatParty (partyId, name, ownerUserId) VALUES ('TestTestTestTestTestTestTestTest', 'Test', 1);
